@@ -151,6 +151,6 @@ def chat(message, history):
 ##gr.ChatInterface(chat, type="messages").launch()
 demo = gr.ChatInterface(fn=chat)
 
-port = int(7860)
+port = int(8081)
 demo.launch(server_name="0.0.0.0", server_port=port)
 #demo.launch()
